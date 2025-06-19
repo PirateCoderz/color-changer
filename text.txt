@@ -1,0 +1,15 @@
+Design Decisions:
+Usability: I made sure the color buttons are clearly labeled, and I added a hover effect for a bit of interaction fun. The color name is displayed in big, bold text, so it’s easy for users to see which color is currently selected.
+
+Contrast & Accessibility: The buttons have strong contrast with their background colors, so they’re easy to read. The area where the background color changes is big enough that you can really notice the shift, and the text stays white, which stands out nicely against all the colors.
+
+Responsiveness: I kept things flexible, so the buttons and background area resize based on the screen size. This makes sure the component works well on both large screens and mobile devices.
+
+Smooth Transition: When the background color changes, there’s a smooth animation that kicks in (transition: background-color 0.5s ease). It makes the whole color shift feel more natural instead of just snapping to the new color.
+
+UI/UX Improvements (If I had more time):
+Custom Colors: A cool addition would be letting users pick their own color by entering a color code or using a color picker. That would give them more freedom and make it more customizable.
+
+More User Feedback: It could be fun to add tooltips or some animation effects when users hover over the buttons. It’d give the whole thing a bit more personality and interactivity.
+
+Dark Mode Support: If I had more time, I’d add dark mode support so the background and buttons could adjust to light or dark preferences, which would make it more accessible for users who prefer a darker UI.
